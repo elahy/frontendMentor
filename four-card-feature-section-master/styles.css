@@ -1,0 +1,41 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  text-align: center;
+}
+
+.card {
+  border-top: 5px solid hsl(180, 62%, 55%);
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  height: 200px;
+  width: 300px;
+  padding: 10px 30px;
+  margin: 20px;
+  border-radius: 5px;
+}
+.card.sup {
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+.card.team {
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+.card.karma {
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+.card.cal {
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+img {
+  margin-left: 70%;
+}
+.allCards {
+  display: flex;
+}
+
+footer {
+  text-align: center;
+}
