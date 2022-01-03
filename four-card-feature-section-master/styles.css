@@ -6,19 +6,28 @@ body {
   text-align: center;
 }
 
+.thinhead {
+  font-weight: 300;
+  padding-top: 3%;
+}
+.boldhead {
+  margin-top: 0;
+}
+
 .card {
   border-top: 5px solid hsl(180, 62%, 55%);
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
     rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   height: 200px;
-  width: 300px;
+  width: 250px;
   padding: 10px 30px;
   margin: 20px;
   border-radius: 5px;
 }
 .card.sup {
   border-top: 5px solid hsl(180, 62%, 55%);
+  align-self: center;
 }
 .card.team {
   border-top: 5px solid hsl(0, 78%, 62%);
@@ -28,14 +37,23 @@ body {
 }
 .card.cal {
   border-top: 5px solid hsl(212, 86%, 64%);
+  align-self: center;
 }
 img {
   margin-left: 70%;
 }
 .allCards {
   display: flex;
+  margin-left: 22%;
+  margin-right: auto;
 }
 
 footer {
   text-align: center;
+}
+
+@media only screen and (max-width: 375px) {
+  .allCards {
+    flex-direction: column;
+  }
 }
